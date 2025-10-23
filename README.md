@@ -116,34 +116,37 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 
 ## 🧩 Tecnologias Utilizadas
 
-- Cypress 🧪
-- Faker.js 👤
-- JavaScript (ES6+) 💻
-- Node.js ⚙️
+- Cypress 🧪 – Framework de testes de ponta a ponta (E2E) para aplicações web.
+- Faker.js 👤 – Geração de dados fictícios para testes automatizados.
+- JavaScript (ES6+) 💻 – Linguagem base utilizada na automação e escrita dos testes.
+- Node.js ⚙️ – Ambiente de execução para o Cypress e suas dependências.
+- Cypress Mochawesome Reporter 📊 – Geração de relatórios HTML e JSON detalhados dos resultados dos testes.
 
 --- 
 
 ## 🚀 Depedências e como Executar o Projeto
 
 1. **Dependências instaladas**
-  - npm init -y     # Cria o arquivo package.json com configurações padrão do projeto
-   - npm install     # Instala todas as dependências listadas no package.json
-  - npm i -D cypress     # Instala o Cypress (ferramenta de testes end-to-end)
-  - npm i -D @faker-js/faker     # Instala o Faker (gera dados falsos para testes, como nomes e e-mails)
-  - npm i -D cypress-mochawesome-reporter    # Instala o reporter para gerar relatórios HTML dos testes
+| Comando                                 | Descrição                                                                               |
+| --------------------------------------- | --------------------------------------------------------------------------------------- |
+| `npm init -y`                           | Cria o arquivo `package.json` com configurações padrão do projeto.                      |
+| `npm install`                           | Instala todas as dependências listadas no `package.json`.                               |
+| `npm i -D cypress`                      | Instala o **Cypress**, ferramenta de testes end-to-end.                                 |
+| `npm i -D @faker-js/faker`              | Instala o **Faker.js**, para gerar dados falsos (ex: nomes e e-mails).                  |
+| `npm i -D cypress-mochawesome-reporter` | Instala o **Cypress Mochawesome Reporter**, que gera relatórios HTML e JSON dos testes. |
+
    
 2. **Abra o Cypress em modo interativo**
-  - npx cypress open
+    - npx cypress open
 3. **Execute os testes em modo headless**
-   - npx cypress run
+    - npx cypress run
  
 ---
 
 ## 👨‍💻 Autor
 
-**Autor:** Eduardo Ferreira
-*Quality Assurance (QA) Engineer*  
-🔗 *Automação de Testes | Cypress Intercept | JavaScript*  
+**Autor:** Eduardo Ferreira  
+*Analista de qualidade de software*
 🌐 [LinkedIn – Eduardo Ferreira](https://www.linkedin.com/in/edufgs/)
 **Licença:** Projeto desenvolvido para fins educacionais e de prática em automação de testes.
 Desenvolvido com foco em boas práticas de automação de testes, isolamento de camadas e simulação de API via interceptação.
