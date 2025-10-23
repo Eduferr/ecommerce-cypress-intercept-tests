@@ -27,7 +27,7 @@ class CarrinhoActions {
 
         this.pesquisarAddProduto(produto); // Primeiro, adiciona o produto ao carrinho
         cy.intercept('PUT', '**/public/updateCart/**').as('removeCart'); // Depois faz o intercept da atualização (remoção)
-
+        cy.wait(1000) //time  inserir devito a lentidão da internet
         carrinhoPage.removerProduto();
         cy.wait('@removeCart').its('response.statusCode').should('eq', 200);
 
