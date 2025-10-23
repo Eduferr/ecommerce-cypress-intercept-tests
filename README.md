@@ -127,7 +127,7 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 ## 🚀 Depedências e como Executar o Projeto
 
 1. **Dependências instaladas**
-2. ```bash
+```bash
 | Comando                                 | Descrição                                                                               |
 | --------------------------------------- | --------------------------------------------------------------------------------------- |
 | `npm init -y`                           | Cria o arquivo `package.json` com configurações padrão do projeto.                      |
@@ -136,7 +136,6 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 | `npm i -D @faker-js/faker`              | Instala o **Faker.js**, para gerar dados falsos (ex: nomes e e-mails).                  |
 | `npm i -D cypress-mochawesome-reporter` | Instala o **Cypress Mochawesome Reporter**, que gera relatórios HTML e JSON dos testes. |
 ```
-   
 1. **Abra o Cypress em modo interativo**
     - npx cypress open
 2. **Execute os testes em modo headless**
