@@ -146,7 +146,7 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 ## 👨‍💻 Autor
 
 **Autor:** Eduardo Ferreira  
-*Analista de qualidade de software*
+*Analista de qualidade de software*  
 🌐 [LinkedIn – Eduardo Ferreira](https://www.linkedin.com/in/edufgs/)
 **Licença:** Projeto desenvolvido para fins educacionais e de prática em automação de testes.
 Desenvolvido com foco em boas práticas de automação de testes, isolamento de camadas e simulação de API via interceptação.
