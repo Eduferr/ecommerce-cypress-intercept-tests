@@ -31,7 +31,7 @@ describe('Funcionalidade carrinho interceptando as requisições', () => {
     });
 
     it('Produto não encontrado', () => {
-        CarrinhoActions.produtoVazio('ball');
+        CarrinhoActions.produtoVazio('Table');
         carrinhoPage.statusCarrinho().should('not.exist');
     });
 

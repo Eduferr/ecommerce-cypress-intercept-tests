@@ -8,7 +8,7 @@ class CarrinhoActions {
 
         produtosPage.abrirPesquisarProduto();
         produtosPage.pesquisarProduto(produto);
-       // cy.wait(500) // Utilizando devido a velocidade da internet
+        cy.wait(500) //time  inserir devito a lentidão da internet
         produtosPage.abrirDetalheProduto();
         carrinhoPage.addCarrinho();
         cy.wait(1000) //time  inserir devito a lentidão da internet
