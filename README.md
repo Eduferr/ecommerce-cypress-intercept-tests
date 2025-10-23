@@ -134,6 +134,9 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 | `npm i -D cypress`                      | Instala o Cypress, ferramenta de testes end-to-end.                                 |
 | `npm i -D @faker-js/faker`              | Instala o Faker.js, para gerar dados falsos (ex: nomes e e-mails).                  |
 | `npm i -D cypress-mochawesome-reporter` | Instala o Cypress Mochawesome Reporter, que gera relatórios HTML e JSON dos testes. |
+| `npm i -D rimraf`                        | Instala o Rimraf, usado para limpar a pasta de relatórios do Cypress Mochawesome Reporter antes de gerar novos relatórios. |
+
+
 ```
 ---
 

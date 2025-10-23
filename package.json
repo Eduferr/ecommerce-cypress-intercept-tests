@@ -4,7 +4,9 @@
   "description": "Atividade do módulo 23 do curso de Engenheiro de qualidade - EBAC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "report:clean": "rimraf cypress/reports && mkdir cypress/reports"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@faker-js/faker": "^10.1.0",
     "cypress": "^15.5.0",
-    "cypress-mochawesome-reporter": "^4.0.2"
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "rimraf": "^6.0.1"
   }
 }
