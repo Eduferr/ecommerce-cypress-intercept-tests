@@ -137,11 +137,9 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 ```
 ---
 
-## ⚙️ Como Executar o Projeto
+## ⚙️ Como Executar o Projeto e gerar o relatório automático
 
-1. **Abra o Cypress em modo interativo**
-    - npx cypress open
-2. **Execute os testes em modo headless**
+**Execute os testes em modo headless**
     - npx cypress run
  
 ---
