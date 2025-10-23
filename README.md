@@ -130,11 +130,11 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 ```bash
 | Comando                                 | Descrição                                                                               |
 | --------------------------------------- | --------------------------------------------------------------------------------------- |
-| `npm init -y`                           | Cria o arquivo `package.json` com configurações padrão do projeto.                      |
-| `npm install`                           | Instala todas as dependências listadas no `package.json`.                               |
-| `npm i -D cypress`                      | Instala o **Cypress**, ferramenta de testes end-to-end.                                 |
-| `npm i -D @faker-js/faker`              | Instala o **Faker.js**, para gerar dados falsos (ex: nomes e e-mails).                  |
-| `npm i -D cypress-mochawesome-reporter` | Instala o **Cypress Mochawesome Reporter**, que gera relatórios HTML e JSON dos testes. |
+| `npm init -y`                           | Cria o arquivo package.json com configurações padrão do projeto.                      |
+| `npm install`                           | Instala todas as dependências listadas no package.json.                               |
+| `npm i -D cypress`                      | Instala o Cypress, ferramenta de testes end-to-end.                                 |
+| `npm i -D @faker-js/faker`              | Instala o Faker.js, para gerar dados falsos (ex: nomes e e-mails).                  |
+| `npm i -D cypress-mochawesome-reporter` | Instala o Cypress Mochawesome Reporter, que gera relatórios HTML e JSON dos testes. |
 ```
 1. **Abra o Cypress em modo interativo**
     - npx cypress open
