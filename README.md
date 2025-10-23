@@ -127,6 +127,7 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 ## 🚀 Depedências e como Executar o Projeto
 
 1. **Dependências instaladas**
+2. ```bash
 | Comando                                 | Descrição                                                                               |
 | --------------------------------------- | --------------------------------------------------------------------------------------- |
 | `npm init -y`                           | Cria o arquivo `package.json` com configurações padrão do projeto.                      |
@@ -134,11 +135,11 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 | `npm i -D cypress`                      | Instala o **Cypress**, ferramenta de testes end-to-end.                                 |
 | `npm i -D @faker-js/faker`              | Instala o **Faker.js**, para gerar dados falsos (ex: nomes e e-mails).                  |
 | `npm i -D cypress-mochawesome-reporter` | Instala o **Cypress Mochawesome Reporter**, que gera relatórios HTML e JSON dos testes. |
-
+```
    
-2. **Abra o Cypress em modo interativo**
+1. **Abra o Cypress em modo interativo**
     - npx cypress open
-3. **Execute os testes em modo headless**
+2. **Execute os testes em modo headless**
     - npx cypress run
  
 ---
@@ -147,6 +148,5 @@ Basta abrir o arquivo no navegador para visualizar o resumo da execução.
 
 **Autor:** Eduardo Ferreira  
 *Analista de qualidade de software*  
-🌐 [LinkedIn – Eduardo Ferreira](https://www.linkedin.com/in/edufgs/)
-**Licença:** Projeto desenvolvido para fins educacionais e de prática em automação de testes.
-Desenvolvido com foco em boas práticas de automação de testes, isolamento de camadas e simulação de API via interceptação.
+🌐 [LinkedIn – Eduardo Ferreira](https://www.linkedin.com/in/edufgs/)   
+**Licença:** Projeto desenvolvido para fins educacionais e de prática em automação de testes, com foco em boas práticas de automação de testes, isolamento de camadas e simulação de API via interceptação.
