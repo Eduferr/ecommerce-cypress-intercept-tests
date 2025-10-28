@@ -11,6 +11,7 @@ export const produtosPage = {
     },
 
     abrirDetalheProduto() {
+        cy.get('[data-testid="browse-product-list"] [data-testid="productDetails"]', { timeout: 10000 }).should('be.visible')
         cy.get('[data-testid="browse-product-list"] [data-testid="productDetails"]').first().click()
     },
 }

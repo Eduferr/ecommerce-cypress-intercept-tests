@@ -8,8 +8,7 @@ export const carrinhoPage = {
     },
 
     statusCarrinho() {
-        //timeout: 0 - possibilita usar `.should('be.visible')` e `.should('not.exist')`, nos testes
-        return cy.contains('My Cart', { timeout: 0 });
+        return cy.contains('My Cart', { timeout: 1000 });
     },
 
     alterarQuantidade() {
@@ -26,6 +25,7 @@ export const carrinhoPage = {
     },
 
     removerProduto() {
+        cy.get('[data-testid="remove"]', { timeout: 10000 }).should('be.visible')
         cy.get('[data-testid="remove"]').click()
     },
 
